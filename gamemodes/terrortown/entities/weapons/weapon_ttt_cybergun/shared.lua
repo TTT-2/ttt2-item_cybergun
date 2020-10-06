@@ -41,9 +41,11 @@ if CLIENT then
 	hook.Add('Initialize', 'ttt2_cybergun_init_language', function()
 		LANG.AddToLanguage('English', 'ttt2_weapon_cybergun', 'Cybergun')
 		LANG.AddToLanguage('Deutsch', 'ttt2_weapon_cybergun', 'Cybergun')
+		LANG.AddToLanguage('Русский', 'ttt2_weapon_cybergun', 'Киберпушка')
 
 		LANG.AddToLanguage('English', 'ttt2_weapon_cybergun_desc', 'Shoot a Tesla cybercar at your enemy!')
 		LANG.AddToLanguage('Deutsch', 'ttt2_weapon_cybergun_desc', 'Schieße einen Tesla Cybertruck auf deinen Feind!')
+		LANG.AddToLanguage('Русский', 'ttt2_weapon_cybergun_desc', 'Стреляйте киберкаром Tesla по врагу!')
 	end)
 
 	SWEP.Author = 'Mineotopia'
